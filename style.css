@@ -4,40 +4,130 @@
     border: 0;
     box-sizing: border-box;
 }
+
+html {
+    width: 100%;
+
+}
+
 body {
     background-color: #FFFFFF;
+    color: black;
     margin: 0;
+    width: 100%;
+    min-height: 100vh;
+
+
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 3px solid magenta;
+    width: 100%;
+}
+
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+   
+    position: relative;
 }
 
 header {
     position: relative;
+    background-color: lightgreen;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    border-radius: 0 0 50% 50% / 70px;
+
 }
+
+
+
 
 
 .background-header {
     display: flex;
     background: linear-gradient(45deg, #8589FF, #E8E9FF);
-    width: 1000px;
-    height: 800px;
-    border-radius: 50%;
+    width: 100%;
+
+    border-radius: 0 0 50% 50%;
     position: absolute;
     bottom: 50%;
     right: 50%;
     transform: translate(50%);
 }
 
-.container {
+.button-city {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    width: 101.14px;
+    height: 101.14px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.five-day-forecast {
     position: relative;
-    width: 414px;
-    height: 896px;
+    width: 100%;
+    min-height: 100vh;
     background: #FFF;
     overflow: hidden;
-  
+    justify-content: center;
 }
+
+
+.cyan {
+    position: relative;
+    background: linear-gradient(45deg, #8589FF, #E8E9FF);
+    width: 100%;
+    border-radius: 0 0 50% 50% / 70px;
+    min-height: 50vh;
+
+}
+
+.search-city {
+    border: 3px solid yellow;
+}
+
+.yellow {
+    display: flex;
+    border: 3px solid yellow;
+    justify-content: space-between;
+    
+}
+.city-display {
+    display: flex;
+    border: 3px solid yellow;
+    justify-content: flex-start;
+    
+}
+
+.weather-conditon {
+    border: 3px solid yellow;
+}
+.sunrise-sunset {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid yellow;
+    
+}
+.dark-blue { 
+    border: 3px solid navy;
+    width: 100%;
+    min-height: 50vh;
+}
+
+ 
+
+
 

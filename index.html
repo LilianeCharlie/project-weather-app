@@ -8,21 +8,50 @@
   </head>
   <body>
     <main>
-      <header>
-        <div class="background-header"></div>
-        <div class="container">
-          <nav>
-            <div class="city-search"></div>
-          </nav>
-          <div class="weather-header"></div>
-          <button></button>
+      <section class="cyan">
+        <nav class="search-city">Search</nav>
+        <div class="yellow">
+          <h2>20 C</h2>
+
+          <img src="./public/images/Sun.svg" alt="" srcset="" />
         </div>
-      </header>
-      <section>
-        <div class="container five-day-forecast"></div>
+
+        <div class="city-display">
+          <span>Stad: stockholm</span>
+        </div>
+        <div class="weather-conditon">
+          <span>Clear: weather</span>
+        </div>
+        <div class="sunrise-sunset">
+          <span>Sunrise: Time</span>
+          <span>Sunrise: Time</span>
+        </div>
+        <button class="button-city">
+          <img src="./public/images/Button.svg" alt="" />
+        </button>
       </section>
+
+      <section class="dark-blue">här ska alla väderlekar in</section>
     </main>
 
     <script src="script.js"></script>
   </body>
 </html>
+
+<header>
+  <!-- <div class="background-header"></div> -->
+  <div class="container">
+    <nav class="yellow">
+      <div class="city-search">Search</div>
+    </nav>
+    <div class="weather-header">Header</div>
+    <button class="button-city">
+      <img src="./public/images/Button.svg" alt="" srcset="" />
+    </button>
+  </div>
+</header>
+<section>
+  <div class="five-day-forecast">HÄr vill jag ha femdagars väderlek</div>
+</section>
+
+const api = [ weather: { city: "stockholm", temp: "34", } ]
